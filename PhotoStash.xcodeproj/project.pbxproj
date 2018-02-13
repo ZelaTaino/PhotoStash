@@ -20,6 +20,8 @@
 		37AE4171202BC3830070FC41 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37AE416E202BC3830070FC41 /* GoogleService-Info.plist */; };
 		555D2E61FE25796AD135F873 /* Pods_PhotoStashTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29CCBA2D87027F8F898874BE /* Pods_PhotoStashTests.framework */; };
 		7FBFED12202E73F800766DCA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBFED11202E73F800766DCA /* SignUpViewController.swift */; };
+		7FBFED1A20337F9100766DCA /* AlbumCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBFED1920337F9100766DCA /* AlbumCollectionViewController.swift */; };
+		7FBFED1E203385A500766DCA /* CreateAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBFED1D203385A500766DCA /* CreateAlbumViewController.swift */; };
 		CDE807206CA90D03A8BE5334 /* Pods_PhotoStashUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB43A8EE6990D12AFC01D45F /* Pods_PhotoStashUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +61,8 @@
 		37AE416E202BC3830070FC41 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5DB3D14DA83B775CC1C191AA /* Pods-PhotoStashTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoStashTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoStashTests/Pods-PhotoStashTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7FBFED11202E73F800766DCA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		7FBFED1920337F9100766DCA /* AlbumCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewController.swift; sourceTree = "<group>"; };
+		7FBFED1D203385A500766DCA /* CreateAlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAlbumViewController.swift; sourceTree = "<group>"; };
 		B7F0C0B0A74CC4E2044971BF /* Pods-PhotoStash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoStash.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoStash/Pods-PhotoStash.debug.xcconfig"; sourceTree = "<group>"; };
 		C4E7CC8E4FA47B8A354BEE8F /* Pods-PhotoStashTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoStashTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoStashTests/Pods-PhotoStashTests.release.xcconfig"; sourceTree = "<group>"; };
 		D483FD46D95793E73BE64886 /* Pods-PhotoStashUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoStashUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoStashUITests/Pods-PhotoStashUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +141,8 @@
 				378E6F16202A884A0072DDB6 /* LaunchScreen.storyboard */,
 				378E6F19202A884A0072DDB6 /* Info.plist */,
 				7FBFED11202E73F800766DCA /* SignUpViewController.swift */,
+				7FBFED1D203385A500766DCA /* CreateAlbumViewController.swift */,
+				7FBFED1920337F9100766DCA /* AlbumCollectionViewController.swift */,
 			);
 			path = PhotoStash;
 			sourceTree = "<group>";
@@ -438,11 +444,15 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-PhotoStash/Pods-PhotoStash-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -472,7 +482,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FBFED12202E73F800766DCA /* SignUpViewController.swift in Sources */,
+				7FBFED1E203385A500766DCA /* CreateAlbumViewController.swift in Sources */,
 				378E6F10202A884A0072DDB6 /* ViewController.swift in Sources */,
+				7FBFED1A20337F9100766DCA /* AlbumCollectionViewController.swift in Sources */,
 				378E6F0E202A884A0072DDB6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
