@@ -7,13 +7,18 @@
 //
 
 import UIKit
+import FirebaseDatabase
 
-private let reuseIdentifier = "Cell"
+private let reuseIdentifier = "albumCell"
 
 class AlbumCollectionViewController: UICollectionViewController {
-
+    var ref: DatabaseReference?
+    var handle:DatabaseHandle?
+    var albums:[String] = []  //an array to hold all the albums
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        ref = Database.database().reference()
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -21,7 +26,25 @@ class AlbumCollectionViewController: UICollectionViewController {
         // Register cell classes
         self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
 
-        // Do any additional setup after loading the view.
+        //Sync with Firebase Database
+        /*
+        handle = ref?.child("Album").observe(.value, with: {(snapshot) in
+            if let item = snapshot.value as? String {
+                self.myList.append(item)
+                self.view.reloadInputViews(); //FIXME
+                self.ref?.keepSynced(true)
+            }
+        })
+         */
+        
+//        handle = self.ref?.child("Album").observe(of: .value, with: {(snapshot) in
+//            for child in snapshot.children {
+//                let albumName = snapshot.value as! String
+//                //let key = snap.key
+//                //let value = snap.value
+//                self.albums.append(albumName)
+//            }
+//        })
     }
 
     override func didReceiveMemoryWarning() {
@@ -42,20 +65,19 @@ class AlbumCollectionViewController: UICollectionViewController {
     // MARK: UICollectionViewDataSource
 
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
+        return albums.count
     }
 
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of items
-        return 0
+        return albums[section].count
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath)
     
         // Configure the cell
+        cell.backgroundColor = UIColor.black
     
         return cell
     }
