@@ -9,7 +9,10 @@
 import UIKit
 import FirebaseDatabase
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 private let reuseIdentifier = "albumCell"
 
 class AlbumCollectionViewController: UICollectionViewController {

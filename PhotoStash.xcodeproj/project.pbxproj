@@ -143,7 +143,10 @@
 				378E6F16202A884A0072DDB6 /* LaunchScreen.storyboard */,
 				378E6F19202A884A0072DDB6 /* Info.plist */,
 				7FBFED11202E73F800766DCA /* SignUpViewController.swift */,
+<<<<<<< HEAD
 				D9ADC91F2033C83700E39EEB /* LoginViewController.swift */,
+=======
+>>>>>>> master
 				7FBFED1D203385A500766DCA /* CreateAlbumViewController.swift */,
 				7FBFED1920337F9100766DCA /* AlbumCollectionViewController.swift */,
 			);
@@ -485,7 +488,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FBFED12202E73F800766DCA /* SignUpViewController.swift in Sources */,
+<<<<<<< HEAD
 				D9ADC9202033C83700E39EEB /* LoginViewController.swift in Sources */,
+=======
+>>>>>>> master
 				7FBFED1E203385A500766DCA /* CreateAlbumViewController.swift in Sources */,
 				378E6F10202A884A0072DDB6 /* ViewController.swift in Sources */,
 				7FBFED1A20337F9100766DCA /* AlbumCollectionViewController.swift in Sources */,
@@ -657,7 +663,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+<<<<<<< HEAD
 				DEVELOPMENT_TEAM = 6HB6E9SALG;
+=======
+				DEVELOPMENT_TEAM = 56QN9BM5HK;
+>>>>>>> master
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = PhotoStash/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -674,7 +684,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+<<<<<<< HEAD
 				DEVELOPMENT_TEAM = 6HB6E9SALG;
+=======
+				DEVELOPMENT_TEAM = 56QN9BM5HK;
+>>>>>>> master
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = PhotoStash/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
