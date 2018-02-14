@@ -7,6 +7,8 @@ target 'PhotoStash' do
 
   # Pods for PhotoStash
 	pod 'Firebase/Core'
+	pod 'Firebase/Auth'
+    pod 'Firebase/Database'
   target 'PhotoStashTests' do
     inherit! :search_paths
     # Pods for testing
