@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D7637947FA5ABC9E14669F8 /* Pods_PhotoStash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE48F323CD461C4991EA815 /* Pods_PhotoStash.framework */; };
 		378E6F0E202A884A0072DDB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378E6F0D202A884A0072DDB6 /* AppDelegate.swift */; };
 		378E6F10202A884A0072DDB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378E6F0F202A884A0072DDB6 /* ViewController.swift */; };
 		378E6F13202A884A0072DDB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378E6F11202A884A0072DDB6 /* Main.storyboard */; };
@@ -14,6 +15,14 @@
 		378E6F18202A884A0072DDB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378E6F16202A884A0072DDB6 /* LaunchScreen.storyboard */; };
 		378E6F23202A884A0072DDB6 /* PhotoStashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378E6F22202A884A0072DDB6 /* PhotoStashTests.swift */; };
 		378E6F2E202A884A0072DDB6 /* PhotoStashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378E6F2D202A884A0072DDB6 /* PhotoStashUITests.swift */; };
+		37AE416F202BC3830070FC41 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37AE416E202BC3830070FC41 /* GoogleService-Info.plist */; };
+		37AE4170202BC3830070FC41 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37AE416E202BC3830070FC41 /* GoogleService-Info.plist */; };
+		37AE4171202BC3830070FC41 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37AE416E202BC3830070FC41 /* GoogleService-Info.plist */; };
+		555D2E61FE25796AD135F873 /* Pods_PhotoStashTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29CCBA2D87027F8F898874BE /* Pods_PhotoStashTests.framework */; };
+		7FBFED12202E73F800766DCA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBFED11202E73F800766DCA /* SignUpViewController.swift */; };
+		7FBFED1A20337F9100766DCA /* AlbumCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBFED1920337F9100766DCA /* AlbumCollectionViewController.swift */; };
+		7FBFED1E203385A500766DCA /* CreateAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBFED1D203385A500766DCA /* CreateAlbumViewController.swift */; };
+		CDE807206CA90D03A8BE5334 /* Pods_PhotoStashUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB43A8EE6990D12AFC01D45F /* Pods_PhotoStashUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1171A0ACB98B92F164405442 /* Pods-PhotoStash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoStash.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoStash/Pods-PhotoStash.release.xcconfig"; sourceTree = "<group>"; };
+		29CCBA2D87027F8F898874BE /* Pods_PhotoStashTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoStashTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		378E6F0A202A884A0072DDB6 /* PhotoStash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoStash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		378E6F0D202A884A0072DDB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		378E6F0F202A884A0072DDB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,17 @@
 		378E6F29202A884A0072DDB6 /* PhotoStashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoStashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		378E6F2D202A884A0072DDB6 /* PhotoStashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoStashUITests.swift; sourceTree = "<group>"; };
 		378E6F2F202A884A0072DDB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37AE416E202BC3830070FC41 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5DB3D14DA83B775CC1C191AA /* Pods-PhotoStashTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoStashTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoStashTests/Pods-PhotoStashTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7FBFED11202E73F800766DCA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		7FBFED1920337F9100766DCA /* AlbumCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewController.swift; sourceTree = "<group>"; };
+		7FBFED1D203385A500766DCA /* CreateAlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAlbumViewController.swift; sourceTree = "<group>"; };
+		B7F0C0B0A74CC4E2044971BF /* Pods-PhotoStash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoStash.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoStash/Pods-PhotoStash.debug.xcconfig"; sourceTree = "<group>"; };
+		C4E7CC8E4FA47B8A354BEE8F /* Pods-PhotoStashTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoStashTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoStashTests/Pods-PhotoStashTests.release.xcconfig"; sourceTree = "<group>"; };
+		D483FD46D95793E73BE64886 /* Pods-PhotoStashUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoStashUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoStashUITests/Pods-PhotoStashUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB43A8EE6990D12AFC01D45F /* Pods_PhotoStashUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoStashUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4C8453AFA6FD9577671995 /* Pods-PhotoStashUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoStashUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoStashUITests/Pods-PhotoStashUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FBE48F323CD461C4991EA815 /* Pods_PhotoStash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoStash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D7637947FA5ABC9E14669F8 /* Pods_PhotoStash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				555D2E61FE25796AD135F873 /* Pods_PhotoStashTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +92,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDE807206CA90D03A8BE5334 /* Pods_PhotoStashUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DF2A3F91CD2C5AC94FDF108 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBE48F323CD461C4991EA815 /* Pods_PhotoStash.framework */,
+				29CCBA2D87027F8F898874BE /* Pods_PhotoStashTests.framework */,
+				DB43A8EE6990D12AFC01D45F /* Pods_PhotoStashUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		378E6F01202A884A0072DDB6 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +116,8 @@
 				378E6F21202A884A0072DDB6 /* PhotoStashTests */,
 				378E6F2C202A884A0072DDB6 /* PhotoStashUITests */,
 				378E6F0B202A884A0072DDB6 /* Products */,
+				BD7288E8B89699CD1A254E08 /* Pods */,
+				0DF2A3F91CD2C5AC94FDF108 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +140,9 @@
 				378E6F14202A884A0072DDB6 /* Assets.xcassets */,
 				378E6F16202A884A0072DDB6 /* LaunchScreen.storyboard */,
 				378E6F19202A884A0072DDB6 /* Info.plist */,
+				7FBFED11202E73F800766DCA /* SignUpViewController.swift */,
+				7FBFED1D203385A500766DCA /* CreateAlbumViewController.swift */,
+				7FBFED1920337F9100766DCA /* AlbumCollectionViewController.swift */,
 			);
 			path = PhotoStash;
 			sourceTree = "<group>";
@@ -112,6 +152,7 @@
 			children = (
 				378E6F22202A884A0072DDB6 /* PhotoStashTests.swift */,
 				378E6F24202A884A0072DDB6 /* Info.plist */,
+				37AE416E202BC3830070FC41 /* GoogleService-Info.plist */,
 			);
 			path = PhotoStashTests;
 			sourceTree = "<group>";
@@ -125,6 +166,19 @@
 			path = PhotoStashUITests;
 			sourceTree = "<group>";
 		};
+		BD7288E8B89699CD1A254E08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7F0C0B0A74CC4E2044971BF /* Pods-PhotoStash.debug.xcconfig */,
+				1171A0ACB98B92F164405442 /* Pods-PhotoStash.release.xcconfig */,
+				5DB3D14DA83B775CC1C191AA /* Pods-PhotoStashTests.debug.xcconfig */,
+				C4E7CC8E4FA47B8A354BEE8F /* Pods-PhotoStashTests.release.xcconfig */,
+				D483FD46D95793E73BE64886 /* Pods-PhotoStashUITests.debug.xcconfig */,
+				ED4C8453AFA6FD9577671995 /* Pods-PhotoStashUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 378E6F32202A884A0072DDB6 /* Build configuration list for PBXNativeTarget "PhotoStash" */;
 			buildPhases = (
+				525E357B56F2989F7275B5DA /* [CP] Check Pods Manifest.lock */,
 				378E6F06202A884A0072DDB6 /* Sources */,
 				378E6F07202A884A0072DDB6 /* Frameworks */,
 				378E6F08202A884A0072DDB6 /* Resources */,
+				ECC99640A14F9A03DA1B550E /* [CP] Embed Pods Frameworks */,
+				060E74C5CF7A1D085569C3CF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 378E6F35202A884A0072DDB6 /* Build configuration list for PBXNativeTarget "PhotoStashTests" */;
 			buildPhases = (
+				2F0ED8E415ACD30EF54BF5AD /* [CP] Check Pods Manifest.lock */,
 				378E6F1A202A884A0072DDB6 /* Sources */,
 				378E6F1B202A884A0072DDB6 /* Frameworks */,
 				378E6F1C202A884A0072DDB6 /* Resources */,
+				4218BD18A86034C1AAB1EF84 /* [CP] Embed Pods Frameworks */,
+				39025488B503449E3FB10F5A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 378E6F38202A884A0072DDB6 /* Build configuration list for PBXNativeTarget "PhotoStashUITests" */;
 			buildPhases = (
+				E8A8C3FE2A3978BF756C1D79 /* [CP] Check Pods Manifest.lock */,
 				378E6F25202A884A0072DDB6 /* Sources */,
 				378E6F26202A884A0072DDB6 /* Frameworks */,
 				378E6F27202A884A0072DDB6 /* Resources */,
+				7D5314136BC6B631F69B8187 /* [CP] Embed Pods Frameworks */,
+				EE53DFD1FC96F279680E4325 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				378E6F18202A884A0072DDB6 /* LaunchScreen.storyboard in Resources */,
+				37AE416F202BC3830070FC41 /* GoogleService-Info.plist in Resources */,
 				378E6F15202A884A0072DDB6 /* Assets.xcassets in Resources */,
 				378E6F13202A884A0072DDB6 /* Main.storyboard in Resources */,
 			);
@@ -242,6 +306,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37AE4170202BC3830070FC41 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,17 +314,177 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37AE4171202BC3830070FC41 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		060E74C5CF7A1D085569C3CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoStash/Pods-PhotoStash-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F0ED8E415ACD30EF54BF5AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhotoStashTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39025488B503449E3FB10F5A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoStashTests/Pods-PhotoStashTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4218BD18A86034C1AAB1EF84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoStashTests/Pods-PhotoStashTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		525E357B56F2989F7275B5DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhotoStash-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D5314136BC6B631F69B8187 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoStashUITests/Pods-PhotoStashUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8A8C3FE2A3978BF756C1D79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhotoStashUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECC99640A14F9A03DA1B550E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PhotoStash/Pods-PhotoStash-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoStash/Pods-PhotoStash-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE53DFD1FC96F279680E4325 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoStashUITests/Pods-PhotoStashUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		378E6F06202A884A0072DDB6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FBFED12202E73F800766DCA /* SignUpViewController.swift in Sources */,
+				7FBFED1E203385A500766DCA /* CreateAlbumViewController.swift in Sources */,
 				378E6F10202A884A0072DDB6 /* ViewController.swift in Sources */,
+				7FBFED1A20337F9100766DCA /* AlbumCollectionViewController.swift in Sources */,
 				378E6F0E202A884A0072DDB6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,10 +649,12 @@
 		};
 		378E6F33202A884A0072DDB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7F0C0B0A74CC4E2044971BF /* Pods-PhotoStash.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 56QN9BM5HK;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = PhotoStash/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.photostash.PhotoStash;
@@ -439,10 +666,12 @@
 		};
 		378E6F34202A884A0072DDB6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1171A0ACB98B92F164405442 /* Pods-PhotoStash.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 56QN9BM5HK;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = PhotoStash/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.photostash.PhotoStash;
@@ -454,6 +683,7 @@
 		};
 		378E6F36202A884A0072DDB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DB3D14DA83B775CC1C191AA /* Pods-PhotoStashTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +701,7 @@
 		};
 		378E6F37202A884A0072DDB6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4E7CC8E4FA47B8A354BEE8F /* Pods-PhotoStashTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +719,7 @@
 		};
 		378E6F39202A884A0072DDB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D483FD46D95793E73BE64886 /* Pods-PhotoStashUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +736,7 @@
 		};
 		378E6F3A202A884A0072DDB6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED4C8453AFA6FD9577671995 /* Pods-PhotoStashUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
