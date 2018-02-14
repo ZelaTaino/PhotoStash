@@ -13,7 +13,7 @@
         <!--Login View Controller-->
         <scene sceneID="Dzr-nG-Uwc">
             <objects>
-                <viewController title="Login View Controller" id="VrJ-Tg-Xgk" sceneMemberID="viewController">
+                <viewController title="Login View Controller" id="VrJ-Tg-Xgk" customClass="LoginViewController" customModule="PhotoStash" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nqJ-f8-p44">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -37,7 +37,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Login"/>
                                 <connections>
-                                    <segue destination="VOw-dK-Xlo" kind="show" id="wd8-yz-oxJ"/>
+                                    <action selector="loginPressed:" destination="VrJ-Tg-Xgk" eventType="touchUpInside" id="b68-J1-s6w"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ntm-zz-b1R">
@@ -55,10 +55,23 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UmG-Of-ADh">
+                                <rect key="frame" x="68" y="308" width="239" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="ZQf-wz-DVW"/>
                     </view>
+                    <connections>
+                        <outlet property="password" destination="1di-y2-JYh" id="KYt-Nq-2MC"/>
+                        <outlet property="signupPressed" destination="ntm-zz-b1R" id="lqL-YR-hSs"/>
+                        <outlet property="username" destination="UmG-Of-ADh" id="nrZ-zq-9jl"/>
+                        <segue destination="VOw-dK-Xlo" kind="show" identifier="loginSegue" id="Ukm-IN-c4W"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CIw-N7-fVe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -129,7 +142,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-114.40000000000001" y="-242.42878560719643"/>
+            <point key="canvasLocation" x="-17" y="-832"/>
         </scene>
         <!--CreateAlbum View Controller-->
         <scene sceneID="6w5-Ls-7nT">
@@ -187,7 +200,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pUl-ra-QAb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="568.79999999999995" y="-233.43328335832086"/>
+            <point key="canvasLocation" x="654" y="188"/>
         </scene>
         <!--AlbumCollection View Controller-->
         <scene sceneID="Bqs-NQ-bI4">
@@ -221,7 +234,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="msr-4t-LJV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1333.5999999999999" y="-233.43328335832086"/>
+            <point key="canvasLocation" x="1511" y="-84"/>
         </scene>
         <!--ContentsViewController-->
         <scene sceneID="gfO-Vh-87W">
@@ -278,6 +291,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="wd8-yz-oxJ"/>
+        <segue reference="Ukm-IN-c4W"/>
     </inferredMetricsTieBreakers>
 </document>
